@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+  }
+  
+  h1
+  {
+    font-family: 'Special Elite', fantasy;
+    color:gold;
+    background-color: silver;
+  }
+  
+  #show_drawing
+  {
+    float:right;
+  }
+  
+  #timer{
+    float: right;
+  }
+  
+  #drawingtobedrawn{
+    color: gold;
+  }
+  
+  canvas 
+    {
+      border:2px solid white;
+      border-radius:20px;
+      margin-top:135px;
+      box-shadow:5px 5px 5px lime;
+      box-shadow: 1px 1px 38px #ffffff;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+  
+    from {box-shadow: 1px 1px 38px gold;}
+    to {box-shadow: 1px 1px 38px orangered;}
+  
+  }
+  
+  
+  p, span
+  {
+      padding-top:10px;
+      font-family: 'Special Elite', fantasy;
+      font-size:25px;
+  }
